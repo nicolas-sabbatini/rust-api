@@ -6,5 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rocket = {version = "0.5.0-rc.2", features = ["json", "uuid"]}
+anyhow = "1.0"
+base64 = "0.21"
+log = "0.4"
+rocket = {version = "0.5.0-rc.3", features = ["json", "uuid"]}
 serde = "1.0"
+thiserror = "1.0"
